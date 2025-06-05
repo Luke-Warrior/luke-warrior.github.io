@@ -1,0 +1,115 @@
+/* this is editing the headers of each section */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: inherit;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+/* This is editing the colours section */
+.colourContainer {
+    border: solid 2px #dddddd;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+/* This is the box the individual colours are contained in */
+.displayBox {
+    height: 200px;
+    width: 400px;
+    font-size: 20px;
+    text-align: right;
+    display: inline-block;
+    
+}
+
+/* These are the background colours of the boxes and their respective text */
+.black {
+    background-color: #35312e;
+    color: white;
+    
+}
+
+.grey {
+    background-color: #dddddd;
+    color: black;
+}
+
+.cream {
+    background-color: #eff1e0;
+    color: black;
+}
+
+.pink {
+    background-color: #e3bdbc;
+    color: black;
+}
+
+.brown {
+    background-color: #86602c;
+    color: black;
+}
+
+/* This is editing the fonts section */
+.fontContainer {
+    border: solid 2px #dddddd;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+/* These are the individual fonts */
+.oswald {
+    font-family: oswald;
+    color: slategray;
+}
+
+.raleway {
+    font-family: raleway;
+    color: slategray;
+}
+
+.roboto {
+    font-family: roboto;
+    color: slategray;
+}
+
+.libre {
+    font-family: "Libre Baskerville";
+    color: slategray;
+}
+
+/* This contains the various text styles */
+.textstylesContainer {
+    border: solid 2px #dddddd;
+    margin-bottom: 50px;
+}
+
+/*This is the styling for the individual elements which remove the text align contained in the heading css at the top of the sections */
+.h1style {
+   font-size: 40px;
+   font-weight: inherit; 
+   text-align: left;
+}
+
+.h2style {
+    font-size: 30px;
+    font-weight: inherit;
+    text-align: left;
+}
+
+.h3style {
+    font-size: 20px;
+    font-weight: inherit;
+    text-align: left;
+}
